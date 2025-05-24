@@ -1,51 +1,51 @@
 {
-    // terminal settings
-    "terminal.integrated.profiles.windows": {
-        "wt": {
-            "path": "wt"
-        },
-        "pwsh": {
-            "path": "pwsh",
-        }
+  // terminal settings
+  "terminal.integrated.profiles.windows": {
+    "wt": {
+      "path": "wt"
     },
-    "terminal.integrated.defaultProfile.windows": "pwsh",
-    // editor
-    "editor.stickyScroll.enabled": false,
-    "editor.minimap.enabled": false,
-    "editor.fontSize": 16,
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.fontFamily": "Hack",
-    // prettier
-    "prettier.useEditorConfig": false,
-    "prettier.useTabs": false,
-    // bread crumbs
-    "breadcrumbs.enabled": false,
-    // window
-    "window.restoreWindows": "none",
-    "window.newWindowDimensions": "maximized",
-    // files
-    "files.autoSave": "afterDelay",
-    // workbench
-    "workbench.settings.applyToAllProfiles": [
-        "files.autoSave",
-        "editor.fontSize",
-        "editor.fontFamily",
-        "editor.insertSpaces",
-        "editor.tabSize",
-        "breadcrumbs.enabled",
-        "prettier.useEditorConfig",
-        "prettier.useTabs"
-    ],
-    "workbench.editor.enablePreview": false,
-    // security
-    "security.workspace.trust.untrustedFiles": "open",
-    // code formatters
-    "[json][jsonc][javascript][typescript][css][scss][html]": {
-        //"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    /* "[jsonc]": {
+    "pwsh": {
+      "path": "pwsh"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "pwsh",
+  // editor
+  "editor.stickyScroll.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 16,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.fontFamily": "Hack",
+  // prettier
+  "prettier.useEditorConfig": false,
+  "prettier.useTabs": false,
+  // bread crumbs
+  "breadcrumbs.enabled": false,
+  // window
+  "window.restoreWindows": "none",
+  "window.newWindowDimensions": "maximized",
+  // files
+  "files.autoSave": "afterDelay",
+  // workbench
+  "workbench.settings.applyToAllProfiles": [
+    "files.autoSave",
+    "editor.fontSize",
+    "editor.fontFamily",
+    "editor.insertSpaces",
+    "editor.tabSize",
+    "breadcrumbs.enabled",
+    "prettier.useEditorConfig",
+    "prettier.useTabs"
+  ],
+  "workbench.editor.enablePreview": false,
+  // security
+  "security.workspace.trust.untrustedFiles": "open",
+  // code formatters
+  "[json][jsonc][javascript][typescript][css][scss][html]": {
+    //"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /* "[jsonc]": {
         "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
     },
     "[json]": {
@@ -66,18 +66,22 @@
     "[html]": {
         "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
     }, */
-    // alive lsp (sbcl repl)
-    "alive.lsp.remote.port": 8006,
-    "alive.lsp.startCommand": [
-        "sbcl",
-        "--noinform",
-        "--eval",
-        "(require :asdf)",
-        "--eval",
-        "(ql:quickload :alive-lsp)",
-        "--eval",
-        "(alive/server::start :port 8006)"
-    ],
-    // kill copilot
-    "chat.commandCenter.enabled": false
+  // alive lsp (sbcl repl)
+  "alive.lsp.remote.port": 8006,
+  "alive.lsp.startCommand": [
+    "sbcl",
+    "--noinform",
+    "--eval",
+    "(require :asdf)",
+    "--eval",
+    "(ql:quickload :alive-lsp)",
+    "--eval",
+    "(alive/server::start :port 8006)"
+  ],
+  // kill copilot
+  "chat.commandCenter.enabled": false,
+  "terminal.integrated.initialHint": false,
+  "inlineChat.lineNaturalLanguageHint": false,
+  "inlineChat.lineEmptyHint": false,
+  "workbench.editor.empty.hint": "hidden"
 }
