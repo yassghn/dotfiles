@@ -37,6 +37,7 @@
     "prettier.useEditorConfig",
     "prettier.useTabs"
   ],
+  "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   // security
   "security.workspace.trust.untrustedFiles": "open",
