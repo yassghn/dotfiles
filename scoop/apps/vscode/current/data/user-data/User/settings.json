@@ -24,6 +24,7 @@
   // window
   "window.restoreWindows": "none",
   "window.newWindowDimensions": "maximized",
+  "window.zoomLevel": 1,
   // files
   "files.autoSave": "afterDelay",
   // workbench
