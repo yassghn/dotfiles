@@ -42,6 +42,9 @@
   "workbench.editor.enablePreview": false,
   // security
   "security.workspace.trust.untrustedFiles": "open",
+  // language specific settings
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
   // code formatters
   "[json][jsonc][javascript][typescript][css][scss][html]": {
     //"editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
