@@ -25,6 +25,8 @@
   "window.restoreWindows": "none",
   "window.newWindowDimensions": "maximized",
   "window.zoomLevel": 1,
+  // updates
+  "update.mode": "none",
   // files
   "files.autoSave": "afterDelay",
   // workbench
