@@ -90,5 +90,6 @@
   "terminal.integrated.initialHint": false,
   "inlineChat.lineNaturalLanguageHint": false,
   "inlineChat.lineEmptyHint": false,
-  "workbench.editor.empty.hint": "hidden"
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.colorTheme": "GitHub Dark"
 }
